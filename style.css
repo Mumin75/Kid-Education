@@ -1,0 +1,725 @@
+*{
+box-sizing: border-box;
+font-family: "Quicksand", sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.BAR {
+ display: none;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+.BAR P{
+  width: 25px;
+  height: 3px;
+  background: #000000;
+  border-radius: 2px;
+  margin: 3px;
+}
+
+
+
+.slogo{
+
+    
+  display: flex;
+  align-items: center;
+
+
+    
+    
+}
+
+.img1 img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.school h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #111;
+}
+
+
+
+.menus{
+
+    display: flex;
+    
+
+}
+
+
+.menus a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 15px;
+}
+
+
+
+.Home{
+    color: orange;
+}
+
+.About{
+    color: skyblue;
+}
+
+.Facillties{
+    color: #05D4DF;
+}
+
+.Admission{
+    color: #5D58EF;
+}
+
+
+
+
+.last button {
+  height: 45px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.div-clear{
+    clear: both;
+}
+
+.part2{
+  display: flex;
+
+  margin: 0 50px;
+  justify-content: space-between;
+}
+
+.t1{
+  font-size: 28px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  padding-top: 35px;
+  order: calc(1);
+}
+
+.orange{
+  color: orange;
+  font-weight: 700;
+}
+
+.blue {
+  color: #2196f3;
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: 700;
+  color: #000;
+}
+
+.t1 p{
+  font-size: 25px;
+}
+
+.enroll{
+  height: 50px;
+  width: 197px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+}
+
+.pic_part{
+  padding-right: 50px;
+    order: calc(2);
+}
+
+
+.three_h{
+    font-weight: 600px;
+    font-size: 55px;
+
+}
+
+.three{
+ text-align: center;
+
+
+}
+
+
+.part3{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+
+
+}
+
+.number1{
+
+  margin: 0 30px;
+  height: 600px;
+  width: 450px;
+  border: 2px solid rgb(183, 233, 251);
+  text-align: center;
+  border-radius: 18px;
+  padding-top: 80px;
+  background-image:linear-gradient(180deg, #baeff7 , #f5f5f5   );
+}
+
+.number2{
+
+  margin: 0 30px;
+  height: 600px;
+  width: 450px;
+  border: 2px solid #ebd8ae;
+  text-align: center;
+  border-radius: 18px;
+  padding-top: 80px;
+  background-image:linear-gradient(180deg, #FFF4DC , #f5f5f5   );
+}
+
+.number3{
+
+  margin: 0 30px;
+  height: 600px;
+  width: 450px;
+  border: 2px solid #e1beff;
+  text-align: center;
+  border-radius: 18px;
+  padding-top: 80px;
+  background-image:linear-gradient(180deg, #F2E8FF , #f5f5f5   );
+}
+
+
+
+.read{
+  color: #64C8FF;
+  font-weight: bold;
+}
+
+.read2{
+  color: #F0AA00;
+  font-weight: bold;
+  
+}
+
+.read3{
+  color: #8700FF;
+  font-weight: bold;
+}
+
+.four {
+
+  display: flex;
+  margin: 0 40px;
+  justify-content: center;
+  
+}
+
+.fourpr2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* ✅ define 3-column grid */
+  gap: 20px; 
+  padding:0 20px; 
+}
+
+.fourh1{
+  text-align: center;
+  font-size: 45px;
+}
+
+
+
+.four1{
+  border: 2px solid rgb(235, 226, 226);
+  border-radius: 16.5px;
+  width: 542px;
+  height: 750px;
+  position: relative;
+
+}
+
+.November{
+  position: absolute;
+  background-color: #3CD8E8;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  margin-top: -25px;
+  margin-left: 50px;
+  
+}
+
+.data{
+    padding: 0 25px;
+}
+
+.four2{
+  border: 2px solid rgb(246, 246, 246);
+  border-radius: 16.5px;
+  width: 294px;
+  position: relative;
+}
+
+.November2{
+  position: absolute;
+  background-color: #95B226;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  margin-top: -25px;
+  margin-left: 50px;
+
+}
+
+.four3{
+
+  border: 2px solid rgb(246, 246, 246);
+  border-radius: 16.5px;
+  width: 294px;
+  position: relative;
+
+}
+
+.November3{
+  position: absolute;
+  background-color: #5D58F0;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  margin-top: -25px;
+  margin-left: 50px;
+
+}
+
+.four4{
+
+  border: 2px solid rgb(246, 246, 246);
+  border-radius: 16.5px;
+  width: 294px;
+  position: relative;
+
+}
+
+.November4{
+  position: absolute;
+  background-color: #f01ebb;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  margin-top: -25px;
+  margin-left: 50px;
+
+}
+
+.four5{
+
+  border: 2px solid rgb(246, 246, 246);
+  border-radius: 16.5px;
+  width: 294px;
+  position: relative;
+
+}
+
+.November5{
+  position: absolute;
+  background-color: #f01e33;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+  margin-top: -25px;
+  margin-left: 50px;
+
+}
+
+.footer {
+  background-color: #00B4FF;
+  color: white;
+  padding: 50px 20px;
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
+
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.footer-left p {
+  line-height: 1.6;
+}
+
+.footer-middle h3,
+.footer-right h3 {
+  margin-bottom: 10px;
+}
+
+.footer-middle ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-middle ul li {
+  margin-bottom: 8px;
+}
+
+.footer-middle ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-middle ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 5px;
+  margin-right: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.dribbble {
+  background-color: #ea4c89;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.google {
+  background-color: #dd4b39;
+}
+
+@media (min-width: 767px) and (max-width: 1210px) {
+
+.four {
+
+  display: flex;
+  margin: 0 40px;
+
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.fourpr2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* ✅ define 3-column grid */
+  gap: 20px; 
+  padding:10px 20px; 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu {
+
+ display: flex;
+  padding: 0px 0px;
+
+  border-bottom: 1px solid orange;
+
+
+}
+
+
+
+.slogo{
+
+  padding: 20px 25px;  
+}
+
+.school h1 {
+  display: none;
+}
+
+
+
+.menus{
+ position: absolute;
+ padding-left: 0px;
+ flex-direction: column;
+ padding-left: 240px;
+ padding-top: 140px;
+ display: none;
+
+
+}
+
+
+.menus a {
+
+  background-color: #95949e;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.BAR {
+    display: flex;
+    align-items: flex-end;
+    width: 50px;
+    padding-right: 20px;
+}
+
+.BAR:hover ~ .menus {
+  display: flex;
+  
+}
+
+
+.last{
+    padding-left: 0px;
+    display: none;
+
+}
+
+
+
+.part2{
+
+
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+
+ }
+
+.t1{
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  padding-top: 35px;
+  order: 2;
+  text-align: center;
+}
+
+
+
+.t1 p{
+  font-size: 12px;
+}
+
+.pic_part{
+
+    order: 1;
+  padding: 0 40px;
+  width: 100%;
+
+
+}
+
+.pic_part img {
+  width: 100%;
+  height: auto;
+  max-width: 337px; /* optional max */
+  display: block;
+  margin: 0 auto;
+}
+
+.enroll{
+  height: 40px;
+  width: 140px;
+
+}
+
+
+.three_h{
+      font-size: 30px;
+
+}
+
+
+
+
+
+
+
+.part3{
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+
+}
+
+.number1{
+
+  margin: 5px 0;
+  height: 500px;
+  width: 100%;
+}
+
+.number2{
+  margin: 5px 0;
+  height: 500px;
+  width: 100%;
+}
+
+.number3{
+
+  margin: 5px 0;
+  height: 500px;
+  width: 100%;
+}
+
+
+.sidei{
+  height: 45px;
+  width: 90px;
+}
+
+
+.four {
+
+  display: flex;
+  margin: 0 40px;
+
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.fourpr2{
+  display: flex;
+  margin: 0 1px;
+  padding: 0px;
+
+  flex-direction: column;
+  padding-top: 10px;
+
+  
+}
+
+
+
+
+.four1{
+  border: 2px solid rgb(235, 233, 233);
+  border-radius: 16.5px;
+  width: 294px;
+  height: 520px;
+  position: relative;
+
+}
+
+.four1 img{
+  width: 291px;
+  height: 177px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
